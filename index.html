@@ -1,1 +1,129 @@
-<p>This page is still being worked on</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product Page</title>
+<style>
+    /* Basic Reset */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #ffffff;
+        background: #0f0c29; /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        overflow-x: hidden;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1rem;
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+
+    .navbar a {
+        color: #fff;
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        transition: color 0.3s;
+    }
+
+    .navbar a:hover {
+        color: #00d2ff;
+    }
+
+    .header {
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .header h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .header p {
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
+    }
+
+    .product-info {
+        padding: 2rem;
+        text-align: center;
+    }
+
+    .product-info h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .product-info p {
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+    }
+
+    .product-info ul {
+        list-style: none;
+    }
+
+    .product-info li {
+        background: rgba(255, 255, 255, 0.1);
+        margin: 1rem 0;
+        padding: 1rem;
+        border-radius: 5px;
+    }
+
+    .footer {
+        text-align: center;
+        padding: 1rem;
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+
+    .footer p {
+        margin-bottom: 0.5rem;
+    }
+</style>
+</head>
+<body>
+    <div class="navbar">
+        <!-- Navigation links -->
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
+        <a href="#support">Support</a>
+    </div>
+    
+    <header class="header">
+        <!-- Product branding and welcome message -->
+        <h1>Welcome to Our Product Page!</h1>
+        <p>Discover the innovative features of our product.</p>
+    </header>
+    
+    <section class="product-info">
+        <!-- About the product -->
+        <h2>About Our Product</h2>
+        <p>Our product is designed to solve your needs with efficiency and ease.</p>
+        <!-- Product features and descriptions -->
+        <ul>
+            <li>Feature 1: Description</li>
+            <li>Feature 2: Description</li>
+            <li>Feature 3: Description</li>
+        </ul>
+    </section>
+    
+    <footer class="footer">
+        <!-- Footer content -->
+        <p>Contact us at email@example.com</p>
+        <p>&copy; 2023 Product Company</p>
+    </footer>
+</body>
+</html>
